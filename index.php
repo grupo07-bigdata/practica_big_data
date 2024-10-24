@@ -16,35 +16,37 @@
         <div class="left-column">
             <!-- Acerca de mí -->
             <div class="section" id="about">
-                <h2>Acerca de mí</h2>
-                <p>Escribe una breve descripción sobre ti.</p>
+                <h2>Acerca de nosotros</h2>
+                <p>ASIR Maria Teresa	Joven Sanagustín</p>
+                <p>DAW Ludmila Da Silva Marques</p>
+                <p>DAM Javier Cerejido Cortés</p>
             </div>
 
             <!-- Contacto -->
             <div class="section" id="contact">
                 <h2>Contacto</h2>
+                <p>📧 t.jov@hotmail.com</p>
+                <p>📧 ludmiladsilva1@gmail.com</p>
                 <p>📧 ivajcc@hotmail.com</p>
-                <p>ivajcc@hotmail.com</p>
             </div>
         </div>
 
         <!-- Proyectos (lado derecho) -->
         <div class="section" id="projects">
-            <h2>Proyectos</h2>
-            
+            <h2>Proyecto Reto Big Data</h2>
             <!-- Div que contiene los botones de proyectos -->
             <div class="project-buttons">
-                <h3 class="proyecto-titulo">Proyecto Big Data</h3>
-                <a href="seccion1.pdf" class="button" target="_blank">Sección #1</a>
-                <a href="seccion2.pdf" class="button" target="_blank">Sección #2</a>
-                <a href="lab3.pdf" class="button" target="_blank">Sección #3</a>
-                <a href="lab4.pdf" class="button" target="_blank">Sección #4</a>
+                <h3 class="proyecto-titulo">Entregable Parcial</h3>
+                <a href="docs/seccion1.pdf" class="button" target="_blank">Sección #1</a>
+                <a href="docs/seccion2.pdf" class="button" target="_blank">Sección #2</a>
+                <a href="docs/lab3.pdf" class="button" target="_blank">Sección #3</a>
+                <a href="docs/lab4.pdf" class="button" target="_blank">Sección #4</a>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>© 2024 Javier Cerejido Cortés</p>
+        <p>©grupo 7</p>
     </footer>
 </body>
 </html>
