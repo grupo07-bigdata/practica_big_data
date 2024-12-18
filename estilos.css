@@ -30,6 +30,7 @@ header h1 {
     height: calc(100vh - 80px); /* Resta la altura del header */
     gap: 20px;
     padding: 20px;
+    margin-bottom:  50px;
 }
 
 /* Columna izquierda con "Acerca de mí" y "Contacto" */
@@ -38,6 +39,7 @@ header h1 {
     flex-direction: column; /* Apila "Acerca de mí" y "Contacto" verticalmente */
     width: 50%;
     gap: 20px; /* Espacio entre los dos divs */
+    min-height: 100%;
 }
 
 /* Sección que ocupa toda la altura de la derecha */
@@ -49,6 +51,7 @@ header h1 {
     justify-content: flex-start;
     padding: 30px;
     background-color: #fff;
+    min-height: 100%;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra moderna */
     text-align: left;
@@ -77,6 +80,7 @@ header h1 {
     background-color: #fff;
     padding: 30px;
     border-radius: 15px;
+    min-height: 44%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -135,10 +139,11 @@ p {
 
 /* Footer */
 footer {
+
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 0.9rem;
 }
 
